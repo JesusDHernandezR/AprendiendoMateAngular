@@ -1,0 +1,18 @@
+<div class="container">
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Numero 1</label>
+          <input type="number" class="form-control" id="numero1" [(ngModel)]="numero1" name="numero1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Numero 2</label>
+          <input type="number" class="form-control" id="numero2" [(ngModel)]="numero2" name="numero2">
+        </div>
+        <div class="mb-3">
+            <label for="resultado" class="form-label">Resultado {{resultado}}</label>
+            <input type="number" class="form-control" id="resultado">
+          </div>    
+        <button type="button" class="btn btn-primary" (click)="add()">Calcular</button>
+      </form>
+    </div>
