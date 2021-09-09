@@ -12,6 +12,8 @@ import { RestaComponent } from './resta/resta.component';
 import { SumaComponent } from './suma/suma.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
+import { MultiplicacionComponent } from './multiplicacion/multiplicacion.component';
+import { DivisionComponent } from './division/division.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HomeComponent } from './home/home.component';
     RestaComponent,
     SumaComponent,
     NavMenuComponent,
-    HomeComponent
+    HomeComponent,
+    MultiplicacionComponent,
+    DivisionComponent
   ],
   imports: [
     FormsModule,
